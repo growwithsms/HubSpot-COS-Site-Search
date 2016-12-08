@@ -1,5 +1,6 @@
 # HubSpot-COS-Site-Search
 The missing HubSpot COS Site Search Module, inspired by HubSpot.com's search functionality.
+
 [Live Demo](https://www.growwithsms.com/)
 
 ## Features
