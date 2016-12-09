@@ -46,6 +46,17 @@ $('a[href$="#cos-search"]').on('click', function(e){
             valueNames: [ 'cos-name', 'cos-url' ]
         };
         var sitemapList = new List('hubspot-cos-site-search', options);
+
+        // no results message
+        var noItems = $('<li id="no-items-found">No results found</li>');
+        sitemapList.on('updated', function(list) {
+            if (list.matchingItems.length == 0) {
+                $(list.list).append(noItems);
+            } else {
+                noItems.detach();
+            }
+        });
+
     });
     
     // activate modal
