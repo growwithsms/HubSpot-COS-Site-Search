@@ -1,5 +1,6 @@
 ///////////////////////
-// COS Site Search
+// HubSpot COS Site Search
+// Created by Stefen Phelps - https://stefenphelps.com/
 ///////////////////////
 
 // List.js v1.3.0 (http://www.listjs.com) by Jonny Strömberg (http://javve.com)
