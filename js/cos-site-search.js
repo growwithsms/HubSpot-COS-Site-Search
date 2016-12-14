@@ -18,7 +18,6 @@ $('.overlay-close').on('click', function(){
 $('a[href$="#cos-search"]').on('click', function(e){
     
     $('#hubspot-cos-site-search ul').empty();
-    $('.search-results-wrapper .search').focus();
     e.preventDefault();
     
     // Ajax sitemap
@@ -62,5 +61,6 @@ $('a[href$="#cos-search"]').on('click', function(e){
     
     // activate modal
     $('body').addClass('search-activated');
-    
+    $('.search-results-wrapper .search').focus();
+
 });
