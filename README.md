@@ -2,6 +2,7 @@
 The missing HubSpot COS Site Search Module, inspired by HubSpot.com's search functionality.
 
 [Live Demo](https://www.growwithsms.com/)
+(search located in footer)
 
 ## Features
 * Drop in solution
