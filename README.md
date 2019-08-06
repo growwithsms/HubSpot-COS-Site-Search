@@ -1,8 +1,7 @@
+# DEPRECATED: HubSpot has released an official search API. I definitely recommend using the official API for a proper HubSpot site search instead of this.
+
 # HubSpot COS Modal Site Search
 The missing HubSpot COS Site Search Module, inspired by HubSpot.com's search functionality.
-
-[Live Demo](https://www.growwithsms.com/)
-(search located in footer)
 
 ## Features
 * Drop in solution
